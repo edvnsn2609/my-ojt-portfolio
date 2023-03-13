@@ -1,0 +1,240 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Home {
+    width: 100%;
+}
+
+.Links {
+    float: right;
+    width: 37%;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.Links a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: white;
+}
+
+.Port {
+    font-size: 40px;
+    color: #e7ba48;
+    font-weight: 900;
+    display: inline-block;
+    margin-left: 40px
+}
+
+.Home:hover {
+    color: #e7ba48;
+}
+
+.About:hover {
+    color: #e7ba48;
+}
+
+.Projects:hover {
+    color: #e7ba48;
+}
+
+.Contact:hover {
+    color: #e7ba48;
+}
+
+body {
+    background-image: url(./205430-star-wars-logos-black-background.jpg);
+    background-size: 1300px;
+    padding: 5px;
+}
+
+.page2 {
+    background-color: transparent;
+}
+
+.name {
+    background-color: black;
+    width: 15%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pageTwo {
+    background-color: black;
+    font-family: system-ui;
+}
+
+.container {
+    background-color: black;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    box-sizing: 0 10px 50px gray;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    row-gap: 30px;
+    color: #e7ba48;
+}
+
+.pic img {
+    width: 200px;
+    height: 200PX;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.pic {
+    display: flex;
+    justify-content: end;
+}
+
+.name {
+    padding-left: 30px;
+    border-left: 2px solid #e7ba48;
+    width: 100%;
+}
+
+.name h2 {
+    font-weight: 900;
+    font-size: xxx-large;
+    width: 500px;
+    margin-top: 70px;
+}
+
+.name .specialize {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.name .contact {
+    padding: 0%;
+    list-style: none;
+}
+
+.name .contact span {
+    display: inline-block;
+    background-color: black;
+    color: #e7ba48;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.name .contact li {
+    padding: 5px 0;
+    transform: translate(-40px);
+    background-color: #E9E7EA;
+}
+
+.info ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.intro {
+    padding-left: 30px;
+    margin: -18px 0 20px;
+}
+
+.intro ul {
+    font-size: 20px;
+}
+
+.skill {
+    margin-top: 50px;
+}
+
+.exp {
+    text-align: right;
+}
+
+.exp h2 {
+    margin: -35px 0 10px;
+}
+
+.exp ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.school {
+    padding-left: 30px;
+    margin: 0 0 20px;
+}
+
+.school ul {
+    font-size: 20px;
+}
+
+.school h2 {
+    margin: -35px 0 10px;
+}
+
+.fb{
+    border-style: outset;
+    border-color: white;
+    color: #e7ba48;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+    background-color: black;
+}
+
+.fb ul{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.email{
+   border-style: outset;
+    border-color: white;
+    color: #e7ba48;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.tele{
+    border-style: outset;
+    border-color: white;
+    color: #e7ba48;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.wapp{
+    border-style: outset;
+    border-color: white;
+    color: #e7ba48;
+    width: 300px;
+    height: 120px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    margin-top: 40px;
+}
